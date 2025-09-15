@@ -11,7 +11,6 @@ typedef struct {
     float area;
     float pib;
     int pontos_turisticos;
-    
 } Carta;
 
 int main(){
@@ -76,7 +75,6 @@ int main(){
     printf("Area: %.2f km²\n", carta1.area); // %.2f para 2 casas decimais
     printf("PIB: %.2f bilhoes de reais\n", carta1.pib);
     printf("Numero de Pontos Turisticos: %d\n", carta1.pontos_turisticos);
-    
 
     printf("\n--- Dados da Carta 2 ---\n");
     printf("Estado: %c\n", carta2.estado);
